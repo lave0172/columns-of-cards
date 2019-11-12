@@ -58,6 +58,11 @@ img {
   flex-grow: 1;
 }
 
+.columns p {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}
+
 section div:first-child {
   background-color: #e2e2e2;
 }
