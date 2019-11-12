@@ -1,0 +1,98 @@
+html {
+  box-sizing: border-box;
+  line height: 1.5;
+  font-family: Open Sans;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  background-color: #f2f2f2;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+h3 {
+  font-style: italic;
+  margin: 0;
+  font-size: .875rem;
+}
+
+p {
+  margin: 0;
+}
+
+
+img {
+  display: block;
+  width: 100px;
+  margin: 0 auto 1.5rem;
+}
+
+.columns {
+  display: flex;
+}
+
+.columns div {
+  width: 25%;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.columns p {
+  flex-grow: 1;
+}
+
+section div:first-child {
+  background-color: #e2e2e2;
+}
+
+section div:nth-child(2) {
+  background-color: #ccc;
+}
+
+section div:nth-child(3) {
+  background-color: #aaa;
+}
+
+section div:last-child {
+  background-color: #999;
+}
+
+.btn {
+  padding: .4em .75em .3em;
+  border-radius: 8px;
+  border-width: 3px;
+  color: #fff;
+  text-decoration: none;
+  font-size: .875rem;
+  background-color: #333;
+  display: block;
+  border: 3px solid #333;
+}
+
+
+
+.btn-small {
+  font-size: .875rem;
+}
+
+.btn:hover {
+  background-color: #000;
+  border: 3px solid #000;
+}
